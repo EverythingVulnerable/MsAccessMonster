@@ -47,7 +47,7 @@ Or,
 ```
 https://www.everythingvuln1.com/vuln.php?id=1'and 0 union select 1,2,3,4 from
 ```
-***Note :: Use the word "from" after the 1st input or, the tool won't properly***.
+***Note :: Use the word "from" after the 1st input or, the tool won't work properly***.
 
 Then, you will be asked to give the comment of the query. This can be anything. Depends on the website. Such as,
 ```
