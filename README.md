@@ -55,7 +55,15 @@ Then, you will be asked to give the comment of the query. This can be anything. 
 %00
 ;%00
 ```
-Give the perfect comment and hit enter and wait for the response.
+After giving the perfect comment, you will be told to give your table_name's list or, word list. By default, we have given a default word list which contains 3k+ table names. If you want to use that put your command like this,
+```
+tables.txt
+```
+If you want to give your custom word list put the path then. For example,
+```
+/sdcard/tables.txt
+```
+Now, hit enter and wait for the matched response. For example,
 ```
 [$] Site link: https://www.everythingvuln1.com/vuln.php?id=1 and 0 union select 1,2,3,4 from ..... %00
 ```
