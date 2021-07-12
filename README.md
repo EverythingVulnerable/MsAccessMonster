@@ -69,3 +69,6 @@ Now, hit enter and wait for the matched response. For example,
 [$] Site link: https://www.everythingvuln1.com/vuln.php?id=1 and 0 union select 1,2,3,4 from ..... %00
 ```
 Here, ```...``` is the correct table names
+### Examples
+![poc image](https://github.com/EverythingVulnerable/MsAccessMonster/blob/main/image1.png?raw=true "How To Run Program")
+![poc image2](https://github.com/EverythingVulnerable/MsAccessMonster/blob/main/image2.png?raw=true "Table Found")
