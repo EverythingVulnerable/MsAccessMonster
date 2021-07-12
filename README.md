@@ -2,7 +2,7 @@
 A fast tool for bruteforcing the Ms Access SQL Injection vulnerable sites with 3k+ possible table names.
 
 ### Compatible devices
-- As this is a python tool, it will run in all devices Termux and Debian based OS.
+- As this tool is completely written in python, it will run in all devices including, Termux and Debian based OS ( Ubuntu, Kali etc. ).
 
 ### Installation & running process
 - For Termux ( Android )
@@ -32,7 +32,7 @@ apt-get install python3 && python3-pip && git
 git clone https://github.com/EverythingVulnerable/MsAccessMonster
 ```
 
-### Running commands ( for every device )
+### Tool running commands ( for every devices & OS )
 ```
 cd MsAccessMonster
 ```
@@ -47,8 +47,9 @@ Or,
 ```
 https://www.everythingvuln1.com/vuln.php?id=1'and 0 union select 1,2,3,4 from
 ```
-Then, you will be asked to give the comment of the query. This can be anything. Depends on the website. Such as,
+***Note :: Use the word "from" after the 1st input or, the tool won't properly***.
 
+Then, you will be asked to give the comment of the query. This can be anything. Depends on the website. Such as,
 ```
 --
 --+-
