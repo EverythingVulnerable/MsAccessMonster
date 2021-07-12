@@ -68,3 +68,4 @@ Now, hit enter and wait for the matched response. For example,
 ```
 [$] Site link: https://www.everythingvuln1.com/vuln.php?id=1 and 0 union select 1,2,3,4 from ..... %00
 ```
+Here, ```...``` is the correct table names
