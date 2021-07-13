@@ -1,4 +1,4 @@
-## MsAccessMonster
+## MsAccessMonster <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></img>
 A fast tool for bruteforcing the Ms Access SQL Injection vulnerable sites with 3k+ possible table names.
 
 ### Compatible devices
