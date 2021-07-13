@@ -26,7 +26,7 @@ sudo su
 apt-get update && apt upgrade -y
 ```
 ```
-apt-get install python3 && python3-pip && git
+apt-get install python3 python3-pip git
 ```
 ```
 git clone https://github.com/EverythingVulnerable/MsAccessMonster
